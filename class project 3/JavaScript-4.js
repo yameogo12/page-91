@@ -8,6 +8,7 @@ function my_Dictionary(){
 	   Sound:"Bark",
 	   
    };
+   delete Animal.Sound;
    document.getElementById("Dictionary").innerHTML = Animal.Sound;
 };
 
